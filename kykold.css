@@ -1,0 +1,247 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+h1, h2, h3, h4, h5, h6 {
+	 margin: 0;
+	 padding-top: 3px;/* отступ сверху */
+ }
+
+*,
+ *:before,
+ *:after {
+	 box-sizing: border-box;
+	 
+ }
+ 
+/* nav-samp */
+.nav-samp {
+	 width: 30%;
+	 max-width: 150px;
+	 margin: 150 auto;
+	 display: flex;
+	 justify-content: left;
+	 padding-top: 4px;-отступ сверху
+	
+}
+ 
+ /* Container */
+.container {
+	 
+	 max-width: 100%;
+	 margin: 0 auto;
+	 display: flex;
+	 justify-content: space-between;
+	 padding-top: 11px;/* отступ сверху */
+	 
+	 width: 100%;
+	 height: 10vh;
+	
+	 background: 
+	 url("../html/13708900956605.png") center
+	 no-repeat;
+	 -webkit-background-size: cover;
+	 background-size: cover;
+}
+
+/* nav-samp */
+.nav-samp {
+	color: #FFFFFF;
+	font-size: 15px;/* размер шрифта */
+	
+}
+
+.img {
+	margin-left: 100px;
+}
+
+/* nav-content */
+.nav-content {
+	font-size: 10px;/* размер шрифта */
+	margin-right: 50px;
+}
+
+/* nav__2 */
+.nav__2 {
+	 display: inline-block;
+	 vertical-align: top;/* вертикальные выравнивания */
+	 margin: 0 auto;
+	 color: #FFFFFF;
+	 text-transform: uppercase; /* большие буквы */
+	 align-items: center;
+	 padding: 14px;
+	 
+	 transition: color .2s linear;
+	 text-decoration: none;
+	
+	
+	 
+	 /* height: 200vh; */
+}
+
+.nav__2:hover {
+	 color: #87CEEB;
+}
+
+/* nav__ */
+.nav__3 {
+	 display: inline-block;
+	 vertical-align: top;/* вертикальные выравнивания */
+	 margin: 0 auto;
+	 color: #FFFFFF;
+	 text-transform: uppercase; /* большие буквы */
+	 align-items: center;
+	 padding: 14px;
+	 /* height: 200vh; */
+     margin-right: 90px;
+	 
+	 transition: color .2s linear;
+	 text-decoration: none;
+	 
+}
+
+
+.nav__3:hover {
+	 color: #87CEEB;
+	 
+}	 
+.nav__3:hover:after {
+	 display: block;	 
+	 
+}	
+
+
+.container__2 { 
+	 height: 42vh;
+	 background: 
+	 url("../html/images.jpg") center
+	 no-repeat;
+	 -webkit-background-size: cover;
+	 background-size: cover;
+	 color: #ffffff;
+}
+
+.medium {
+	 vertical-align: top;
+	 display: flex;
+	 justify-content: center;
+	 padding-top: 40px; /* отступ сверху */
+
+}
+
+.kaka {
+	font-stretch: ultra-condensed;
+	font-size: 53px;
+	
+}
+
+.kaga {
+	font-stretch: ultra-condensed;
+	font-size: 50px;
+	margin-left: 10px;
+}
+
+
+.medium__2 {
+	
+}
+
+.text {
+	font-stretch: ultra-condensed;
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
+	font-size: 20px;
+}
+
+.text1 {
+	font-stretch: ultra-condensed;
+	display: flex;
+	justify-content: center;
+	margin-top: 4px;
+	font-size: 20px;
+}
+
+
+.knopka {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 10px;
+
+    text-decoration: none; /* убирать подчёркивание у ссылок */
+    user-select: none; /* убирать выделение текста */
+    background: rgb(212,75,56); /* фон кнопки */
+    padding: 1.4em .1em; /* отступ от текста */
+    outline: none; /* убирать контур в Mozilla */
+    border-radius: 3px;	
+	font-size: 50%;
+	width: 7%;
+    margin: 0 auto;
+	margin-top: 30px;
+}
+
+.knopka:hover { 
+background: rgb(232,95,76); 
+} /* при наведении курсора мышки */
+.knopka:active { 
+background: rgb(152,15,0); 
+} /* при нажатии */
+
+
+.niz-nav {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	margin-left: -25px;
+	margin-right: 75px;	
+	 
+}
+
+.niz-nav {
+	margin-top: 90px
+}
+.oformlenie {
+	display: flex;
+	justify-content: space-between;
+	margin-right: 40px;
+	margin-top: 0px;
+	color: #696969;
+}
+
+.niz-text {
+	margin: 0 auto;
+	text-align: center;
+   	
+}
+
+
+.niz-sslk {
+	text-decoration: none;
+}
+.niz-sslk1 {
+	margin-bottom: 15px;
+	text-decoration: none; /* убирать подчёркивание у ссылок */
+    color: #696969; /* фон кнопки */
+  
+   
+}
+
+.niz-sslk1:hover { 
+color: #800000; 
+} /* при наведении курсора мышки */
+.niz-sslk1:active { 
+color: #FF0000; 
+} /* при нажатии */
+
+
+
+
+
+
+ 
